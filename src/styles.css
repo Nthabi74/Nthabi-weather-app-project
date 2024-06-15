@@ -1,0 +1,24 @@
+
+body{
+    width: 50%;
+    height: 50%;
+    margin: 100px auto;
+    
+}
+.weather-app{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side{
+    background-image: url("IMG_20240308_181100.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+}
+.right-side{
+    background-color: rgb(116, 88, 64);
+    color: white;
+}
